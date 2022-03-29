@@ -1,0 +1,32 @@
+{
+  "name": "pjatk-timetable-scrapper",
+  "version": "1.0.0",
+  "description": "Small selenium app to read the PJATK timetable website",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kovansky/pjatk-timetable-scrapper.git"
+  },
+  "keywords": [
+    "PJATK",
+    "timetable"
+  ],
+  "author": "F4 Developer <skowanski@f4dev.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kovansky/pjatk-timetable-scrapper/issues"
+  },
+  "homepage": "https://github.com/kovansky/pjatk-timetable-scrapper#readme",
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.0.18",
+    "selenium-webdriver": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  }
+}
